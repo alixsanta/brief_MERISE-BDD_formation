@@ -6,9 +6,9 @@ MERISE est une méthode structurée qui permet de concevoir et de développer de
 
 MERISE comprend plusieurs phases, notamment :
 
-1. L'étude préalable, qui consiste à analyser les besoins des utilisateurs et à définir les objectifs du système d'information.
-2. L'étude détaillée, qui consiste à modéliser les données et les traitements du système d'information.
-3. La conception générale, qui consiste à définir l'architecture globale du système d'information.
-4. La conception détaillée, qui consiste à spécifier les détails techniques du système d'information.
-5. La réalisation, qui consiste à développer et à tester le système d'information.
+1. L'étude préalable, qui consiste à analyser les besoins des utilisateurs et à définir les objectifs du système d'information,
+2. L'étude détaillée, qui consiste à modéliser les données et les traitements du système d'information,
+3. La conception générale, qui consiste à définir l'architecture globale du système d'information,
+4. La conception détaillée, qui consiste à spécifier les détails techniques du système d'information,
+5. La réalisation, qui consiste à développer et à tester le système d'information,
 6. La mise en production, qui consiste à déployer le système d'information dans l'environnement de production.
