@@ -1,14 +1,18 @@
 # Formations
-1. Les formations sont organisées en plusieurs modules
-2. Une formation peut avoir zero ou plusieurs modules
-3. une formation possède :
-   1. un identifiant,
-   2. un titre,
-   3. une description
-4. Une formation peut avoir une illustration ou une vidéo de présentation
-5. Une formation est considérée comme terminée lorsque tous les modules ont été validés par l'apprenant
-6. Une formation possède un status en cours/terminée, une fois que tous les modules ont été validés
-7. Une formation a un ou plusieurs auteurs.
+   Une formation possède :
+   - un identifiant
+   - un titre
+   - une description
+   - une ou plusieurs illustration
+  
+   Une formation est organisée en plusieurs modules  
+   Une formation peut avoir zero ou plusieurs modules  
+   Une formation est crée par un auteur
+
+1. Une formation peut avoir une illustration ou une vidéo de présentation
+2. Une formation est considérée comme terminée lorsque tous les modules ont été validés par l'apprenant
+3. Une formation possède un status en cours/terminée, une fois que tous les modules ont été validés
+4. Une formation a un ou plusieurs auteurs.
    
 # Modules
 Un module est organisé en plusieurs lessons
@@ -26,33 +30,43 @@ Un module est organisé en plusieurs lessons
 6. Un module peut 
 
 # Leçons
-   Une Leçon doit contenir :
-   1. du texte
-   2. Une image d'illustration
-   3. zero ou plusieurs vidéos
-   4. un auteur
-1. Une leçon peut faire partie d'un ou plusieurs modules
+   Une Leçon contient :
+   - un identifiant unique
+   - un titre
+   - un paragraphe
+   - un ou plusieurs contenus d'illustrations
+   - un auteur
+   - une date de création
+
+Une leçon est crée par un formateur,
+Une leçon fait partie d'un ou plusieurs modules
 
 # Apprenants
-1. Un apprenant possède un identifiant unique
-2. Les apprenants peuvent s'inscrire à une ou plusieurs formations
-3. Les apprenants peuvent choisir de ne pas suivre certains des modules s'ils possèdent déjà les compétences requises
-4. Un apprenant est évalué pour chaque module une fois terminé
-5. Un apprenant possède :
-   1. un numéro d'inscription unique,
-   2. un nom,
-   3. un prénom,
-   4. une adresse,
-   5. une date de naissance,
-   6. un mail
+   Un apprenant possède :
+   - un identifiant universel unique (UId)
+   - un nom
+   - un prénom
+   - une adresse
+   - une date de naissance
+   - une adresse email
+   - un mot de passe
+  
+   Un apprenant peut suivre zéro ou plusieurs formations  
+   Un apprenant peut choisir de ne pas suivre certains des modules s'il possède déjà les compétences requises  
+   Un apprenant est évalué pour chaque formation une fois terminée  
+
 
 # Formateurs
-Un formateur peut créer une formation
-1. Un formateur est auteur d'un module, d'une leçon pour une formation donnée
-2. Un formateur est caractérisé par :
-   1. un code formateur
-   2. un nom
-   3. un prénom
-   4. un rôle (administrateur ou non)
-3. Un formateur peut avoir accès à toutes les formations
+   Un formateur possède :
+   - un code formateur
+   - un nom
+   - un prénom
+   - une adresse mail
+   - un mot de passe
+   - un rôle (administrateur ou non)
+   
+   Un formateur crée une formation  
+   Un formateur est auteur d'un module  
+   Un formateur est auteur d'une leçon  
+   Un formateur peut avoir accès à toutes les formations
 
